@@ -28,7 +28,9 @@ body {
   padding-bottom: 40px;
 }
 .my-photo {
-  width: 370px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
   border-radius: 50%;
 }
 
