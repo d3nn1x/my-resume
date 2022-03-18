@@ -92,12 +92,12 @@ body {
   display: block;
   width: 30px;
   height: 20px;
-  background-image: url('../img/flag.png');
+  background-image: url('../img/Flag_of_Poland.svg.webp');
   background-repeat: no-repeat;
   background-size: cover;
 
   position: absolute;
-  left: 106px;
+  left: 140px;
   top: 0;
 }
 
@@ -180,11 +180,17 @@ body {
 }
 
 .about-me-description {
+  display: inline-block;
+  padding-bottom: 10px;
   color: #595959;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
+}
+
+.flag {
+  display: inline-block;
 }
 
 .about-me-title {
